@@ -7,7 +7,7 @@
 
 
 
-## sudo without password
+# sudo without password
 
 open settin file with the command below and add  `<user> ALL=(ALL) NOPASSWD:ALL`
 ```sh
@@ -19,3 +19,20 @@ if `/etc/sudoers` is broken, then try this.
 $ pkexec chmod 755 /etc
 $ pkexec vi /etc/sudoers
 ```
+
+
+
+# Terminal Preferences
+
+
+
+## save/load
+
+
+
+# Entire Preferences
+
+
+
+
+## save/load
