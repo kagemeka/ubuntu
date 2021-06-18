@@ -11,6 +11,8 @@ cgroup-tools \
 curl \
 ffmpeg \
 figlet \
+git \
+git-flow \
 gnome-control-center \
 gnome-online-accounts \
 gnome-system-monitor \
@@ -25,11 +27,13 @@ nvidia-utils-460 \
 nvidia-driver-460 \
 obs-studio \
 pavucontrol \
+ssh \
 tlp \
 tree \
 usb-creator-gtk \
 v4l2loopback-dkms \
 vlc \
+wget \
 # && wget https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb \
 # && sudo apt install -y ./google-chrome-unstable_current_amd64.deb \
 # && rm google-chrome-unstable_current_amd64.deb \
