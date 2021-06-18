@@ -25,14 +25,29 @@ $ pkexec vi /etc/sudoers
 # Terminal Preferences
 
 
+## Terminal Preferences 
+- profile name: `black`
+- initial terminal size `16` x `4`
+- custom font size: `6`
+- cursor shape: `Block`
+- cursor blinking: `Enabled`
+- Terminal bell: `off`
+- Default color: Text: `#FFFFFF`, Background: `#000000`
+- use transparent background: `on`
 
-## save/load
+## dump/load
+```sh
+$ dconf dump /org/gnome/terminal/ > terminal-settings.ini
+$ dconf load /org/gnome/terminal/ < terminal-settings.ini
+```
 
 
 
 # Entire Preferences
 
 
-
-
-## save/load
+## dump/load
+```sh
+$ dconf dump / > dconf-settings.ini
+$ dconf load / < dconf-settings.ini
+```
