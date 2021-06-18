@@ -12,7 +12,7 @@ git_branch() {
 
 PS1='\$ '
 sps() {
-   dirs | sed -r 's|([^/~])[^/]*/|\1/|g'
+   dirs | sed -r 's|(\.?[^/~])[^/]*/|\1/|g'
 }
 PS1='$(git_branch)$(sps) \$ '
 
