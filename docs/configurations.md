@@ -51,3 +51,17 @@ $ dconf load /org/gnome/terminal/ < terminal-settings.ini
 $ dconf dump / > dconf-settings.ini
 $ dconf load / < dconf-settings.ini
 ```
+
+
+
+
+# Gnome Extensions
+
+
+### gnome extensions 
+befora installing, `disable ad-blocking extensions (ublock origin, ...)`
+
+- [extensions manager](https://extensions.gnome.org/extension/1036/extensions/)
+- [WinTile](https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/)
+- [Hide Top Bar](https://extensions.gnome.org/extension/723/pixel-saver/)
+- [Pixel Saver](https://extensions.gnome.org/extension/723/pixel-saver/)
