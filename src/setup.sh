@@ -27,6 +27,7 @@ nvidia-utils-460 \
 nvidia-driver-460 \
 obs-studio \
 pavucontrol \
+screenkey \
 ssh \
 tlp \
 tree \
