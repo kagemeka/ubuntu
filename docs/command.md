@@ -52,4 +52,8 @@ $ echo $PWD
 $ pwd
 $ dirs
 
+
+# display keystrokes
+$ screenkey # start 
+$ pkill -f screenkey # stop
 ```
