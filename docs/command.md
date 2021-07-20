@@ -5,6 +5,7 @@
 ```sh
 # copy a file to clipboard
 $ xclip -sel c < <file>
+$ cat <file> | xclip -sel clip
 
 # kill pid
 $ ps -fA | grep <pattern>
