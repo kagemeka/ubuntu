@@ -48,8 +48,8 @@ $ dconf load /org/gnome/terminal/ < terminal-settings.ini
 
 ## dump/load
 ```sh
-$ dconf dump / > dconf-settings.ini
-$ dconf load / < dconf-settings.ini
+$ dconf dump / > settings.ini
+$ dconf load / < settings.ini
 ```
 
 
