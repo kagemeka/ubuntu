@@ -94,3 +94,8 @@ $ sudo ubuntu-drivers autoinstall
 ```
 while installation, set `secure boot password` if needed.
 it's used at next boot time.(select `Enroll OK` and enter the password.)
+
+- check
+```sh
+$ nvidia-smi
+```
