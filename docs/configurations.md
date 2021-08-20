@@ -65,3 +65,32 @@ befora installing, `disable ad-blocking extensions (ublock origin, ...)`
 - [WinTile](https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/)
 - [Hide Top Bar](https://extensions.gnome.org/extension/723/pixel-saver/)
 - [Pixel Saver](https://extensions.gnome.org/extension/723/pixel-saver/)
+
+
+
+# fix system time error when dual booting with windows.
+```sh
+$ timedatectl set-local-rtc 1
+```
+
+
+
+# install nvidia-driver
+- check latest driver version
+```sh
+$ sudo ubuntu-drivers devices
+```
+
+- install 
+e.g.
+```sh
+$ sudo apt install -y \
+  nvidia-utils-470 \
+  nvidia-driver-470
+```
+don't use
+```sh
+$ sudo ubuntu-drivers autoinstall
+```
+while installation, set `secure boot password` if needed.
+it's used at next boot time.(select `Enroll OK` and enter the password.)

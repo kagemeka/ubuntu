@@ -23,8 +23,8 @@ gparted \
 ibus-mozc \
 neovim \
 nvidia-cuda-toolkit \
-nvidia-utils-460 \
-nvidia-driver-460 \
+nvidia-utils-470 \
+nvidia-driver-470 \
 obs-studio \
 pavucontrol \
 screenkey \
