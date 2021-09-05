@@ -57,4 +57,10 @@ $ dirs
 # display keystrokes
 $ screenkey # start 
 $ pkill -f screenkey # stop
+
+
+
+# analog clock
+$ xclock
+
 ```

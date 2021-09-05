@@ -35,6 +35,7 @@ usb-creator-gtk \
 v4l2loopback-dkms \
 vlc \
 wget \
+x11-apps \
 && wget https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb \
 && sudo apt install -y ./google-chrome-unstable_current_amd64.deb \
 && rm google-chrome-unstable_current_amd64.deb \
