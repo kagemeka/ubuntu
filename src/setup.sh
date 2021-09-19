@@ -59,19 +59,19 @@ x11-apps \
 && gsettings set org.gnome.shell.extensions.desktop-icons show-home false \
 && gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button false \
 && gsettings set org.gnome.Terminal.Legacy.Settings headerbar false \
-&& gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 7 \
-&& gsettings set org.gnome.desktop.peripherals.keyboard delay 255 \
-&& gsettings set org.gnome.desktop.interface cursor-blink-time 255 \
+&& gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 3 \
+&& gsettings set org.gnome.desktop.peripherals.keyboard delay 127 \
+&& gsettings set org.gnome.desktop.interface cursor-blink-time 127 \
 && gsettings set org.gnome.desktop.peripherals.mouse speed 1.0 \
 && gsettings set org.gnome.desktop.screensaver lock-delay 0 \
 && gsettings set org.gnome.desktop.screensaver lock-enabled false \
 && gsettings set org.gnome.desktop.screensaver ubuntu-lock-on-suspend false \
 && gsettings set org.gnome.desktop.sound allow-volume-above-100-percent false \
-&& gsettings set org.gnome.desktop.wm.preferences num-workspaces 2 \
+&& gsettings set org.gnome.desktop.wm.preferences num-workspaces 1 \
 && gsettings set org.gnome.settings-daemon.plugins.power idle-dim false \
-&& gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 511 \
+&& gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-timeout 1023 \
 && gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'suspend' \
-&& gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 511 \
+&& gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-timeout 1023 \
 && gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'suspend' \
 && gnome-extensions enable pixel-saver@deadalnix.me \
 && curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
