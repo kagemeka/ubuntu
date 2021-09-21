@@ -21,6 +21,7 @@ gnome-shell-extension-pixelsaver \
 gnome-tweaks \
 gparted \
 ibus-mozc \
+krita \
 neovim \
 nvidia-cuda-toolkit \
 nvidia-utils-470 \
@@ -46,6 +47,7 @@ x11-apps \
 && sudo aptitude install -y pm-utils \
 && sudo snap install --classic code \
 && sudo snap install gimp \
+&& sudo snap install krita \
 && echo "alias open='xdg-open .'" >> ~/.bashrc \
 && echo "alias settings=gnome-control-center" >> ~/.bashrc \
 && echo "alias system-monitor=gnome-system-monitor" >> ~/.bashrc \
