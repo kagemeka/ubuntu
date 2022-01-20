@@ -1,2 +1,2 @@
-# ubuntu
-Ubuntu setup
+# Kagemeka's Ubuntu Configuration
+

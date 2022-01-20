@@ -1,13 +1,3 @@
-# Ubuntu Shortcuts 
-
-
-
-# Window Shortcuts
-
-
-
-
-
 # Terminal Shortcuts
 
 

@@ -23,14 +23,8 @@ gparted \
 ibus-mozc \
 krita \
 neovim \
-nvidia-cuda-toolkit \
-nvidia-utils-470 \
-nvidia-driver-470 \
 obs-studio \
-pavucontrol \
-screenkey \
 ssh \
-tlp \
 tree \
 usb-creator-gtk \
 v4l2loopback-dkms \
@@ -48,6 +42,7 @@ x11-apps \
 && sudo snap install --classic code \
 && sudo snap install gimp \
 && sudo snap install krita \
+&& sudo snap install kdenlive \
 && echo "alias open='xdg-open .'" >> ~/.bashrc \
 && echo "alias settings=gnome-control-center" >> ~/.bashrc \
 && echo "alias system-monitor=gnome-system-monitor" >> ~/.bashrc \
@@ -61,7 +56,7 @@ x11-apps \
 && gsettings set org.gnome.shell.extensions.desktop-icons show-home false \
 && gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button false \
 && gsettings set org.gnome.Terminal.Legacy.Settings headerbar false \
-&& gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 3 \
+&& gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 7 \
 && gsettings set org.gnome.desktop.peripherals.keyboard delay 127 \
 && gsettings set org.gnome.desktop.interface cursor-blink-time 127 \
 && gsettings set org.gnome.desktop.peripherals.mouse speed 1.0 \
