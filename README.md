@@ -1,2 +1,2 @@
-# Kagemeka's Ubuntu Configuration
+# Kagemeka's Ubuntu environment
 
