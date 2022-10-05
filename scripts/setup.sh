@@ -31,9 +31,6 @@ v4l2loopback-dkms \
 vlc \
 wget \
 x11-apps \
-&& wget https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb \
-&& sudo apt install -y ./google-chrome-unstable_current_amd64.deb \
-&& rm google-chrome-unstable_current_amd64.deb \
 && wget https://github.com/microsoft/VoTT/releases/download/v2.2.0/vott-2.2.0-linux.snap \
 && sudo snap install vott-2.2.0-linux.snap --dangerous \
 && sudo rm vott* \
