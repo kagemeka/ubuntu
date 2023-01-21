@@ -53,9 +53,9 @@ x11-apps \
 && gsettings set org.gnome.shell.extensions.desktop-icons show-home false \
 && gsettings set org.gnome.shell.extensions.dash-to-dock show-show-apps-button false \
 && gsettings set org.gnome.Terminal.Legacy.Settings headerbar false \
-&& gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 7 \
-&& gsettings set org.gnome.desktop.peripherals.keyboard delay 127 \
-&& gsettings set org.gnome.desktop.interface cursor-blink-time 127 \
+&& gsettings set org.gnome.desktop.peripherals.keyboard repeat-interval 15 \
+&& gsettings set org.gnome.desktop.peripherals.keyboard delay 150 \
+&& gsettings set org.gnome.desktop.interface cursor-blink-time 511\
 && gsettings set org.gnome.desktop.peripherals.mouse speed 1.0 \
 && gsettings set org.gnome.desktop.screensaver lock-delay 0 \
 && gsettings set org.gnome.desktop.screensaver lock-enabled false \
